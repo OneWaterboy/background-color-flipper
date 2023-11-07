@@ -20,13 +20,27 @@ body {
     height: 200px;
 }
 
-#colorSwitcher > div {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+#changeColor {
+    width: fit-content;
+    border: 1px solid #FFF;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 div#colorAnnouncment {
     margin: 20px;
+}
+
+#changeColor {
+    cursor: pointer;
+}
+
+#colorAnnouncment span:first-child {
+    margin-right: 20px;
+}
+
+#colorAnnouncment span{
+    text-transform: capitalize;
 }
